@@ -1,0 +1,46 @@
+{
+    "name": "mvmx/l5-opencc",
+    "description": "OpenCC for Laravel",
+    "keywords": [
+        "opencc",
+        "laravel"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/mvmx/l5-opencc/issues",
+        "source": "https://github.com/mvmx/l5-opencc"
+    },
+    "authors": [
+        {
+            "name": "MX Ma",
+            "email": "mx.ma@qq.com"
+        }
+    ],
+    "require": {
+        "ext-opencc": "*",
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mvmx\\OpenCC\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mvmx\\OpenCC\\ServiceProvider"
+            ],
+            "aliases": {
+                "OpenCC": "Mvmx\\OpenCC\\Facade"
+            }
+        }
+    }
+}
