@@ -17,8 +17,10 @@
         }
     ],
     "require": {
-        "ext-opencc": "*",
         "laravel/framework": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
     },
     "autoload": {
         "psr-4": {
@@ -29,9 +31,6 @@
         "psr-4": {
             "Tests\\": "tests"
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.5"
     },
     "extra": {
         "laravel": {
