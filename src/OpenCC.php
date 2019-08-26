@@ -14,7 +14,7 @@ class OpenCC
     protected $odMap = [];
 
     /**
-     * Construct function
+     * Construct function.
      *
      * @return void
      *
@@ -123,7 +123,7 @@ class OpenCC
     }
 
     /**
-     * Destruct function
+     * Destruct function.
      *
      * @return void
      */

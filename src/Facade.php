@@ -4,6 +4,9 @@ namespace Mvmx\OpenCC;
 
 use Illuminate\Support\Facades\Facade as LaravelFacade;
 
+/**
+ * @method static string trans(string $text, string $configName = null)
+ */
 class Facade extends LaravelFacade
 {
     /**
