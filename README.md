@@ -22,6 +22,8 @@ Publish Configuration
 $ php artisan vendor:publish --provider "Mvmx\OpenCC\ServiceProvider"
 ```
 
+Configuration
+
 ```php
 
     /**
